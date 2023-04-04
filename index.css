@@ -1,0 +1,275 @@
+
+.left-nav{
+    
+    display: flex;
+    margin: 1px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav{
+   
+    border: 1px solid rgb(224,214,194);
+    border-radius: 28px;
+    padding: 1px 1px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(224,214,194);
+}
+.right-nav{
+    margin: 2px;
+}
+
+
+
+button{
+    margin: 1px;
+  font-size: 16px;
+  font-weight: 500;
+  height:50px;
+  width: 150px;
+  /* margin: 0px 10px; */
+  color: rgb(224,214,194);
+  background-color: transparent;
+  border: 1px solid rgb(224,214,194);
+  border-radius: 25px;
+}
+.button-dis{
+    width: 350px;
+    height: 52px;
+    border: 0px solid #B1A592;
+     border-radius: 25px; 
+    background-color: #323025;
+    
+}
+
+.nav .abc:hover{
+    background-color: rgb(224,214,194);
+    color: #333333;
+    transition-property: all;
+    transition-duration: 0.3s;
+    
+}
+
+.grid{
+    margin: 4px 6px;
+    display: grid;
+    /* align-items: stretch; */
+     gap: 10px 10px;  
+    /* column-gap: 20px; */
+    grid-template-columns:1fr 1fr 1fr;
+    align-items:normal;
+    /* justify-items: auto; */
+    
+}
+
+/* .el1,.el2,.el3,.el4{
+    position: absolute;
+} */
+
+.line{
+    /* position: relative; */
+    right: 0%;
+    bottom: 0px;
+    color:  #333333;
+    
+}
+/* .grid>div>*{
+    margin:20px;
+} */
+.grid button{
+    padding: 0px;
+    margin-left: 30px;
+    width: 200px;
+    height: 34px;
+    border-color: #323025
+    ;
+    
+}
+.grid h2{
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: solid  rgb(52,36,21);
+    color:rgb(52,36,21);
+    /* text-decoration:none; */
+}
+.grid a{
+    font-size: 32px;
+    color:rgb(52,36,21);
+    /* text-decoration:none; */
+}
+.el1{
+
+
+    padding: 10px;
+    display: flex;
+    background-color: rgb(224,214,194);
+    flex-direction: column;
+   
+    /* height: 100px; */
+     grid-row-start: 1;
+    grid-row-end: 3; 
+}
+ .el1{
+    width: 33vw; 
+   /* width: 667;
+   height: 981; */
+   border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.el2{
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    width:62vw;
+    grid-column-start: 2;
+    grid-column-end: 4;
+   /* align-self: stretch; */
+    background-color: rgb(143,136,104);
+}
+
+.flex-2{
+    display: flex;
+    flex-direction: row;
+}
+.el3,.el4{
+  margin: 0px;
+}
+
+.el2,.el3,.el4{
+    padding: 10px;
+}
+.heading{ 
+    margin-left: 30px;
+    font-weight:700;
+    font-size: 24px;
+} 
+
+.el1 *{
+    margin: 10px;
+    color: #333333 ;
+
+}
+.grid > .el2{
+   border-radius: 30px;
+}
+.el2 *{
+    margin: 10px;
+    color: #333333 ;
+}
+.grid > .el3{
+   border-radius: 30px;
+}
+.el3 *{
+    margin: 10px;
+    color: #333333 ;
+}
+.grid > .el4{
+   
+   border-radius: 30px;
+}
+.el4 *{
+    margin: 10px;
+    color: #333333 ;
+}
+
+
+
+
+.grid>.el2{
+    display: flex;
+    flex-direction: column;
+}
+.grid>.el2>.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid>.el3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    width: 30vw;
+    background-color:  rgb(151,108,84);
+}
+.grid>.el4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 30vw;
+    background-color: rgb(181,163,141);
+
+}
+
+.el4{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.grid .get{
+    font-size: 14px;
+    color: #333333;
+}
+.flex{
+    width: auto;
+    gap: 60px;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+    align-items:stretch;
+    justify-content:stretch; 
+}
+
+.flex-3{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between; 
+    align-items: center;
+}
+
+.flex-3>div>div{
+     padding: 10px 10px; 
+    width: 10px;
+    height: 10px;
+    background-color: #323025;
+   border-radius: 20px;  
+    margin: 0px;
+}
+
+.circle{
+    display: flex;
+
+}
+
+
+.flex-4{
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items:center;
+    gap: 60px;
+    justify-content:space-between;
+}
+
+.get-started {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+}
